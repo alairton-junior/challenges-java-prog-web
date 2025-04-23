@@ -1,6 +1,8 @@
+package sequential;
+
 import java.util.Scanner;
 
-public class Exercicio3 {
+public class Ex03_AverageOfThreeGrades {
     public static void main(String[] args) throws Exception {
 
         Scanner scanner = new Scanner(System.in);

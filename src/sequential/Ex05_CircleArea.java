@@ -1,6 +1,8 @@
+package sequential;
+
 import java.util.Scanner;
 
-public class Exercicio5 {
+public class Ex05_CircleArea {
     public static void main(String[] args) throws Exception {
 
         System.out.println("======= Área do Círculo =======");

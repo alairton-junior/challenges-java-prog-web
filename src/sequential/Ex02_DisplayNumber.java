@@ -1,6 +1,8 @@
+package sequential;
+
 import java.util.Scanner;
 
-public class Exercicio2 {
+public class Ex02_DisplayNumber {
     public static void main(String[] args) throws Exception {
 
         Scanner scanner = new Scanner(System.in);

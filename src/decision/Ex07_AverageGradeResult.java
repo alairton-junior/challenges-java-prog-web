@@ -1,6 +1,8 @@
+package decision;
+
 import java.util.Scanner;
 
-public class Exercicio7 {
+public class Ex07_AverageGradeResult {
     public static void main(String[] args) throws Exception {
 
         System.out.println("======= Média Aritmética das Notas =======");

@@ -1,6 +1,8 @@
+package sequential;
+
 import java.util.Scanner;
 
-public class Exercicio4 {
+public class Ex04_MetersToCentimeters {
     public static void main(String[] args) throws Exception {
 
         Scanner scanner = new Scanner(System.in);

@@ -1,6 +1,8 @@
+package decision;
+
 import java.util.Scanner;
 
-public class Exercicio6 {
+public class Ex06_CheapestProduct {
     public static void main(String[] args) throws Exception {
 
         System.out.println("======= Preço dos Produtos =======");
