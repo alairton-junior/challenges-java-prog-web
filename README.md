@@ -1,8 +1,12 @@
 ## Java Programming Exercises I
 
+**Course:** Digital Media Systems  
+**Subject:** Web Programming I  
+**Professor:** Leonardo Moreira
+
 This document contains a list of Java programming exercises, grouped by topic: sequential structure, decision structure, repetition structure, and strings & arrays.
 
-## Sequential Structure
+## ✅ Sequential Structure
 
 1. Create a Java program that displays the message: **"Hello, world!"** on the screen.
 2. Create a Java program that asks for a number via keyboard input and then displays the message: **"The number entered was [number]."**
@@ -10,20 +14,20 @@ This document contains a list of Java programming exercises, grouped by topic: s
 4. Create a Java program that receives a number in meters via keyboard input, converts it to centimeters, and displays the result.
 5. Create a Java program that calculates and displays the area of a circle on the console. Use the formula: **A = πr²**.
 
-## Decision Structure
+## 🔀 Decision Structure
 
 6. Create a Java program that asks for the price of three products via keyboard input and informs which one to buy, assuming the decision is always based on the cheapest option.
 7. Create a Java program that receives **N** grades via keyboard input, calculates and displays the arithmetic mean. Also, inform whether the student passed (mean ≥ 7) or failed.
 8. Create a Java program to calculate a student’s final average (FA) between two grades. Display the student’s status based on the following:
-    - Approved if **FA ≥ 7**
-    - If **FA ≥ 4 and < 7**, the student takes an extra exam (AF).
-        - Approved if **AF ≥ 4** and **(FA + AF) / 2 ≥ 5**
-        - Otherwise, failed.
-    - If AF is needed, ask for the grade and show the final result with or without AF.
+   - Approved if **FA ≥ 7**
+   - If **FA ≥ 4 and < 7**, the student takes an extra exam (AF).
+      - Approved if **AF ≥ 4** and **(FA + AF) / 2 ≥ 5**
+      - Otherwise, failed.
+   - If AF is needed, ask for the grade and show the final result with or without AF.
 9. Create a Java program that receives three numbers via keyboard input and displays the largest one.
 10. Create a Java program that receives an integer via keyboard input and displays whether it is even or odd.
 
-## Repetition Structure
+## 🔁 Repetition Structure
 
 11. Create a Java program that displays the multiplication table of an integer from 0 to 10. Use a `for` loop and allow only valid numbers (0 to 10).
 12. Create a Java program that asks for a grade from 0 to 10. If the input is invalid, display a message and keep asking until a valid grade is entered.
@@ -32,7 +36,7 @@ This document contains a list of Java programming exercises, grouped by topic: s
 15. Create a Java program that displays the first 10 terms of the Fibonacci sequence: **0-1-1-2-3-5-8-13-21-34**
 16. Create a Java program that reads a positive integer and calculates its factorial. Display the result.
 
-## Strings and Arrays
+## 🔡 Strings and Arrays
 
 17. Create a Java program that fills an array with 5 integers via keyboard input and displays them.
 18. Create a Java program that fills an array with 10 real numbers via keyboard input and displays them in reverse order.
@@ -49,22 +53,3 @@ This document contains a list of Java programming exercises, grouped by topic: s
 Based on the exercise list by Prof. Maurício Moreira Neto – Course: CK0030 – Fundamentals of Programming  
 Available at: [http://maumneto.github.io/mauricioneto/](http://maumneto.github.io/mauricioneto/)  
 Accessed: October 19, 2021.
-
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-
-
-
